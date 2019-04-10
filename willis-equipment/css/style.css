@@ -8,3 +8,12 @@
  Version:      1.0.0
 */
 /*****Add any custom CSS below this line*****/
+#main-header {
+  background-image: url("images/header-background.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#footer-widgets .footer-widget .fwidget.et_pb_widget {
+  width: 100%;
+  margin-bottom: 15px; }
