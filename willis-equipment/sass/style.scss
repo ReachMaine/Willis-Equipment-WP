@@ -9,11 +9,30 @@
 */
 
 /*****Add any custom CSS below this line*****/
+@import "partials/colors";
+@import "partials/basics";
+
 #main-header {
   background-image: url("images/header-background.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
+}
+// fontpage slider
+.willis-slide {
+  .et_pb_slide_description {
+    .et_pb_slide_content {
+      float:right;
+    }
+  }
+}
+// under content widget (above footer)
+#reach-under-content-wrap {
+  background-color: $willis-limegreen;
+  padding: 20px 0;
+  .et_pb_widget {
+    width: 100%;
+  }
 }
 #footer-widgets {
   .footer-widget {
@@ -23,3 +42,4 @@
     }
   }
 }
+@import "partials/media"; // keep at bottom;

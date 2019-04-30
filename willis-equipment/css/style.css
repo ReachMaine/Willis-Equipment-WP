@@ -8,12 +8,61 @@
  Version:      1.0.0
 */
 /*****Add any custom CSS below this line*****/
+/* ----------- Colors ---------------------------------- */
+/* ----------- end Colors ----------- */
+/* basic css stuff */
+.willis-inline-btn {
+  display: inline; }
+
+a.willis-blk-btn {
+  background-color: black;
+  color: white;
+  border: 0px;
+  margin: 0 16px;
+  letter-spacing: 2px;
+  padding: .3em 1em; }
+
+a.willis-blk-btn:hover {
+  background-color: #1541AC !important;
+  border: 0px;
+  padding: .3em 1em; }
+
+a.willis-blk-btn:after {
+  content: ""; }
+
 #main-header {
   background-image: url("images/header-background.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover; }
 
+.willis-slide .et_pb_slide_description .et_pb_slide_content {
+  float: right; }
+
+#reach-under-content-wrap {
+  background-color: #B8FB3C;
+  padding: 20px 0; }
+  #reach-under-content-wrap .et_pb_widget {
+    width: 100%; }
+
 #footer-widgets .footer-widget .fwidget.et_pb_widget {
   width: 100%;
   margin-bottom: 15px; }
+
+/* **** media **** */
+@media only screen and (max-width: 980px) {
+  .wec-row-stackorder {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    /* Safari 6.1+ */
+    flex-wrap: wrap; }
+    .wec-row-stackorder .wec-second-at-mobile {
+      -webkit-order: 2;
+      order: 2; }
+    .wec-row-stackorder .first-on-mobile {
+      -webkit-order: 1;
+      order: 1; } }
