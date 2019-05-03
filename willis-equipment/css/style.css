@@ -30,6 +30,9 @@ a.willis-blk-btn:hover {
 a.willis-blk-btn:after {
   content: ""; }
 
+.reach-module-leftalign {
+  float: left; }
+
 #main-header {
   background-image: url("images/header-background.jpg");
   background-position: bottom;
