@@ -33,6 +33,20 @@ a.willis-blk-btn:after {
 .reach-module-leftalign {
   float: left; }
 
+/* gravity forms styling */
+.gform_wrapper {
+  background-color: #cae9f2;
+  padding-top: 20px;
+  padding-left: 20px; }
+  .gform_wrapper .gform_footer input[type=submit] {
+    color: white;
+    padding: 6px 20px;
+    border-width: 0px;
+    font-size: 20px !important;
+    text-align: center;
+    cursor: pointer;
+    background-color: #1541AC; }
+
 #main-header {
   background-image: url("images/header-background.jpg");
   background-position: bottom;
