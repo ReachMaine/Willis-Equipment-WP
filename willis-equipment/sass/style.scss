@@ -18,7 +18,22 @@
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
+  .mobile_menu_bar:before { // hamberger menu
+    color: white;
+  }
 }
+
+#main-header #top-menu ul.sub-menu li:not(.current-menu-item) a,
+#main-header.et-fixed-header #top-menu ul.sub-menu li:not(.current-menu-item) a {
+  color: $willis-blue!important; // when scroll, correct color of flyout menut
+}
+// active color on menu
+#main-header .et_mobile_menu li.current-menu-item a,
+#main-header #top-menu ul.sub-menu li.current-menu-item a {
+  color: $willis-darker-lime!important; // when scroll, correct color of flyout menut
+}
+
+
 // fontpage slider
 .willis-slide {
   .et_pb_slide_description {
